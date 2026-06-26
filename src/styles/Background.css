@@ -1,0 +1,155 @@
+.background{
+    position:fixed;
+    inset:0;
+    z-index:-10;
+    overflow:hidden;
+    background:#040816;
+}
+
+/* Grid */
+
+.grid{
+    position:absolute;
+    inset:0;
+
+    background-image:
+    linear-gradient(rgba(0,198,255,.07) 1px,transparent 1px),
+    linear-gradient(90deg,rgba(0,198,255,.07) 1px,transparent 1px);
+
+    background-size:50px 50px;
+
+    animation:gridMove 18s linear infinite;
+}
+
+/* Glow */
+
+.glow{
+
+position:absolute;
+
+width:600px;
+
+height:600px;
+
+border-radius:50%;
+
+filter:blur(120px);
+
+opacity:.18;
+
+}
+
+.glow1{
+
+background:#00C6FF;
+
+top:-200px;
+
+left:-100px;
+
+animation:floatGlow 12s ease-in-out infinite;
+
+}
+
+.glow2{
+
+background:#0066ff;
+
+bottom:-200px;
+
+right:-100px;
+
+animation:floatGlow 15s ease-in-out infinite reverse;
+
+}
+
+/* Particles */
+
+.particle{
+
+position:absolute;
+
+width:5px;
+
+height:5px;
+
+background:#00C6FF;
+
+border-radius:50%;
+
+box-shadow:0 0 15px #00C6FF;
+
+animation:particle 12s linear infinite;
+
+}
+
+.p1{left:10%;animation-delay:0s;}
+.p2{left:25%;animation-delay:2s;}
+.p3{left:45%;animation-delay:4s;}
+.p4{left:60%;animation-delay:6s;}
+.p5{left:80%;animation-delay:8s;}
+.p6{left:90%;animation-delay:10s;}
+
+@keyframes particle{
+
+0%{
+
+transform:translateY(100vh);
+
+opacity:0;
+
+}
+
+30%{
+
+opacity:1;
+
+}
+
+70%{
+
+opacity:1;
+
+}
+
+100%{
+
+transform:translateY(-100px);
+
+opacity:0;
+
+}
+
+}
+
+@keyframes gridMove{
+
+0%{
+
+background-position:0 0;
+
+}
+
+100%{
+
+background-position:50px 50px;
+
+}
+
+}
+
+@keyframes floatGlow{
+
+0%,100%{
+
+transform:translate(0,0);
+
+}
+
+50%{
+
+transform:translate(60px,40px);
+
+}
+
+}
