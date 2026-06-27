@@ -1,0 +1,156 @@
+.projects{
+  min-height:100vh;
+  padding:120px 8%;
+}
+
+.projects-header{
+  text-align:center;
+  margin-bottom:80px;
+}
+
+.projects-header p{
+  color:#00d4ff;
+  letter-spacing:6px;
+}
+
+.projects-header h2{
+  color:white;
+  font-size:4rem;
+}
+
+.projects-line{
+  width:120px;
+  height:4px;
+  margin:15px auto;
+  border-radius:20px;
+
+  background:linear-gradient(
+    90deg,
+    #00d4ff,
+    #4f7cff
+  );
+}
+
+.projects-grid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:30px;
+}
+
+.project-card{
+  background:rgba(11,24,45,.85);
+
+  border:1px solid rgba(0,212,255,.15);
+
+  border-radius:30px;
+
+  padding:25px;
+
+  transition:.4s ease;
+  min-height:650px;
+   display:flex;
+   flex-direction:column;
+}
+
+.project-card:hover{
+  border-color:#00d4ff;
+
+  box-shadow:
+    0 0 30px rgba(0,212,255,.25);
+}
+
+.featured{
+  transform:scale(1.03);
+}
+
+.project-icon{
+  width:70px;
+  height:70px;
+
+  display:flex;
+  align-items:center;
+  justify-content:center;
+
+  border-radius:20px;
+
+  background:linear-gradient(
+    135deg,
+    #00d4ff,
+    #4f7cff
+  );
+
+  color:white;
+
+  font-size:2rem;
+
+  margin-bottom:25px;
+}
+
+.project-card h3{
+  color:white;
+  font-size:1.7rem;
+  min-height:80px;
+}
+
+.project-card h4{
+  color:#00d4ff;
+  margin:10px 0 20px;
+}
+
+.project-card p{
+  color:#b7c0d8;
+  line-height:1.7;
+  font-size:0.95rem;
+}
+
+.project-card ul{
+  margin:20px 0;
+  padding-left:20px;
+}
+
+.project-card li{
+  color:#9ea8c5;
+  margin-bottom:8px;
+}
+
+.project-tech{
+  display:flex;
+  flex-wrap:wrap;
+  gap:10px;
+  margin-top:20px;
+}
+
+.project-tech span{
+  padding:6px 12px;
+  font-size:0.85rem;
+
+  border-radius:20px;
+
+  color:#00d4ff;
+
+  background:rgba(0,212,255,.08);
+
+  border:1px solid rgba(0,212,255,.2);
+}
+
+.project-buttons{
+  display:flex;
+  gap:15px;
+  margin-top:auto;
+}
+
+.project-buttons a{
+  flex:1;
+
+  text-align:center;
+
+  padding:12px;
+
+  border-radius:12px;
+
+  background:#0d1b34;
+
+  border:1px solid rgba(0,212,255,.2);
+
+  color:white;
+}
