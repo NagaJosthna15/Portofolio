@@ -110,7 +110,7 @@ function Projects() {
 
           <div className="project-buttons">
 
-            <a href="https://github.com/NagaJosthna15/PFM_Dashboard_Project">
+            <a href="https://github.com/NagaJosthna15/-pfm-dashboard-">
               <FaGithub /> GitHub
             </a>
 

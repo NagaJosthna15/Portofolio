@@ -176,32 +176,6 @@
   font-size:.95rem;
 }
 
-.tech-stack{
-  margin-top:25px;
-
-  display:flex;
-
-  flex-wrap:wrap;
-
-  gap:10px;
-}
-
-.tech-stack span{
-
-  padding:6px 12px;
-  font-size:.85rem;
-
-  border-radius:20px;
-
-  color:#00d4ff;
-
-  border:
-  1px solid rgba(0,212,255,.25);
-
-  background:
-  rgba(0,212,255,.05);
-}
-
 @media(max-width:900px){
 
 .timeline::before{

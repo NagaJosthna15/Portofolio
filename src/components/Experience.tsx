@@ -50,15 +50,7 @@ function Experience() {
               <li>Improved website functionality and performance</li>
             </ul>
 
-            <div className="tech-stack">
-
-              <span>MERN Stack</span>
-              <span>Recharts</span>
-              <span>Plaid API</span>
-              
-
-            </div>
-
+           
           </div>
 
           <div className="timeline-dot"></div>
@@ -106,17 +98,7 @@ function Experience() {
               </li>
             </ul>
 
-            <div className="tech-stack">
-
-              <span>Excel</span>
-
-              <span>SharePoint</span>
-
-              <span>Power Automate</span>
-
-              <span>Power BI</span>
-
-            </div>
+           
 
           </div>
 
