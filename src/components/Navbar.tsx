@@ -40,9 +40,7 @@ function Navbar() {
         ))}
       </ul>
 
-      <button className="hire-btn">
-        Hire Me
-      </button>
+      
 
       <div
         className="mobile-menu"
