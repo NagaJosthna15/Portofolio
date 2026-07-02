@@ -5,7 +5,6 @@ import profile from "../assets/images/profile.png";
 import { TypeAnimation } from "react-type-animation";
 
 import {
-  FaGithub,
   FaReact,
   FaJava,
   FaPython,

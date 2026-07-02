@@ -3,7 +3,6 @@ import { motion } from "framer-motion";
 
 import {
   FaGithub,
-  FaExternalLinkAlt,
   FaBrain,
   FaChartLine,
   FaMicrophone,
