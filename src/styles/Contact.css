@@ -246,3 +246,17 @@
 .footer span{
   color:#8b93a5;
 }
+
+@media screen and (max-width:768px){
+
+.contact-container{
+  grid-template-columns:1fr;
+  gap:25px;
+}
+
+.contact-left,
+.contact-right{
+  width:100%;
+}
+
+}

@@ -154,3 +154,16 @@
 
   color:white;
 }
+
+@media screen and (max-width:768px){
+
+.projects-grid{
+  grid-template-columns:1fr;
+  gap:25px;
+}
+
+.project-card{
+  width:100%;
+}
+
+}

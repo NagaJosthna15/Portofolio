@@ -65,3 +65,14 @@
   line-height:1.4;
   font-weight:600;
 }
+@media screen and (max-width:768px){
+
+.cert-grid{
+  grid-template-columns:1fr;
+}
+
+.cert-card{
+  width:100%;
+}
+
+}
