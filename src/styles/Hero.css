@@ -12,13 +12,18 @@
 
 .hero-left {
   flex: 1;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
 }
 
 .hero-badge {
-  display: inline-flex;
+  display: flex;
   align-items: center;
-  padding: 14px 28px;
+  justify-content: center;
+  padding: 12px 24px;
   border-radius: 50px;
+  margin:0 auto 35px auto;
   background: rgba(0,180,255,0.08);
   border: 1px solid rgba(0,180,255,.35);
   color: #18c8ff;
@@ -28,7 +33,7 @@
 }
 
 .hero h4{
-  font-size:38px;
+  font-size:32px;
   color:#8e9cb6;
   margin-bottom:15px;
 }
@@ -43,7 +48,7 @@
 
 
 .hero h2{
-  font-size:40px;
+  font-size:34px;
   color:#19d5ff;
   margin-bottom:28px;
   margin-top:18px;
@@ -51,11 +56,11 @@
 }
 
 .hero p{
-  width:620px;
+  width:520px;
   max-width:100%;
   color:#9ca9bf;
-  font-size:22px;
-  line-height:1.9;
+  font-size:20px;
+  line-height:1.8;
   margin-bottom:40px;
 }
 
@@ -74,7 +79,7 @@
 
 .white-name{
     color:#ffffff !important;
-    font-size:92px;
+    font-size:78px;
     font-weight:800;
     margin:0;
     padding:0;
@@ -82,7 +87,7 @@
 
 .blue-name{
     color:#11cfff !important;
-    font-size:92px;
+    font-size:78px;
     font-weight:800;
     margin-top:-8px;
 }
@@ -168,32 +173,6 @@ color:white;
 
 }
 
-.hero-social{
-
-display:flex;
-
-gap:25px;
-
-}
-
-.hero-social a{
-
-font-size:35px;
-
-color:white;
-
-transition:.4s;
-
-}
-
-.hero-social a:hover{
-
-color:#18c8ff;
-
-transform:translateY(-8px);
-
-}
-
 .hero-right{
 
 flex:1;
@@ -208,9 +187,9 @@ align-items:center;
 
 .image-circle{
 
-width:520px;
+width:470px;
 
-height:520px;
+height:470px;
 
 border-radius:50%;
 
@@ -275,8 +254,8 @@ border:8px solid #050816;
 
 .floating{
     position:absolute;
-    width:65px;
-    height:65px;
+    width:58px;
+    height:58px;
     border-radius:50%;
     display:flex;
     justify-content:center;
@@ -286,7 +265,7 @@ border:8px solid #050816;
 
     border:1px solid rgba(255,255,255,.08);
 
-    font-size:30px;
+    font-size:26px;
 
     color:#00d9ff;
 

@@ -6,10 +6,6 @@ import { TypeAnimation } from "react-type-animation";
 
 import {
   FaGithub,
-  FaLinkedin,
-  FaEnvelope,
-  FaArrowRight,
-  FaDownload,
   FaReact,
   FaJava,
   FaPython,
@@ -79,47 +75,8 @@ function Hero() {
           solutions.
         </p>
 
-        <div className="hero-buttons">
-
-          <button className="primary-btn">
-            View Projects
-            <FaArrowRight />
-          </button>
-
-          <button className="secondary-btn">
-            <FaDownload />
-            Resume
-          </button>
-
-          <button className="outline-btn">
-            Contact Me
-          </button>
-
-        </div>
-
-        <div className="hero-social">
-
-          <a
-            href="https://github.com/NagaJosthna15"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <FaGithub />
-          </a>
-
-          <a
-            href="https://www.linkedin.com/in/josthnatummala159/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <FaLinkedin />
-          </a>
-
-          <a href="mailto:jyoshnajyoo1415@gmail.com">
-            <FaEnvelope />
-          </a>
-
-        </div>
+       
+       
 
       </motion.div>
 {/* RIGHT */}
